@@ -1,14 +1,14 @@
 version: 2.1
 
 orbs:
-  android: circleci/android@1.0.3
-  gcp-cli: circleci/gcp-cli@2.2.0
+  android: circleci/android@2.1.0
+  gcp-cli: circleci/gcp-cli@2.4.0
 
 jobs:
   unit-test:
     executor:
-      name: android/android-machine
-      resource-class: xlarge
+      name: android/android-docker
+      tag: 2022.08.1
     steps:
       - checkout
       - android/restore-gradle-cache
