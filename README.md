@@ -29,7 +29,7 @@ The codelabs in this series are:
 
 
 Pre-requisites
---------------
+---------------
 
 You should be familiar with:
 
