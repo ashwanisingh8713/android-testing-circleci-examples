@@ -1,8 +1,8 @@
 version: 2.1
 
 orbs:
-  android: circleci/android@2.1.0
-  gcp-cli: circleci/gcp-cli@2.4.0
+  android: circleci/android@1.0.3
+  gcp-cli: circleci/gcp-cli@2.2.0
 
 jobs:
   unit-test:
